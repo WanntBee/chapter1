@@ -81,3 +81,28 @@
           }
     }
 }
+
+.testimonial {
+	margin-bottom: 3em;
+	background: #F1F3FF;
+	padding: 3em;
+	border-right: 30px solid #fff;
+	min-height: 150px;
+
+    .testimonial-header {
+        text-align: center;
+    }
+
+    .container {
+        text-align: justify;
+    }
+    
+	.testimony-body {
+		font-size: .9em;
+	}
+}
+.avatar {
+	img {
+		max-width: 200%;
+	}
+}

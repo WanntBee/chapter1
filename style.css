@@ -100,4 +100,28 @@
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
+
+.testimonial {
+  margin-bottom: 3em;
+  background: #F1F3FF;
+  padding: 3em;
+  border-right: 30px solid #fff;
+  min-height: 150px;
+}
+
+.testimonial .testimonial-header {
+  text-align: center;
+}
+
+.testimonial .container {
+  text-align: justify;
+}
+
+.testimonial .testimony-body {
+  font-size: .9em;
+}
+
+.avatar img {
+  max-width: 200%;
+}
 /*# sourceMappingURL=style.css.map */
