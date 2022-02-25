@@ -1,3 +1,13 @@
+:root {
+  --primary-color: #F1F3FF;
+  --secondary-color: #000000;
+  --third-color: #0D28A6;
+}
+
+body {
+  font-family: Helvetica;
+}
+
 #header {
   padding-top: 15px;
   padding-bottom: 30px;
@@ -123,5 +133,35 @@
 
 .avatar img {
   max-width: 200%;
+}
+
+#getting-started {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffff;
+}
+
+#getting-started .container {
+  background-color: var(--third-color);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#getting-started .container .getting-started-description {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#getting-started .container .getting-started-description .getting-started-content {
+  padding-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
