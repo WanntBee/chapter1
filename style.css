@@ -60,4 +60,13 @@
 #hero .hero-cta:hover {
   background-color: var(--secondary-color);
 }
+
+#service {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#service .img-check {
+  padding-right: 15px;
+}
 /*# sourceMappingURL=style.css.map */
