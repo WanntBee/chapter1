@@ -154,3 +154,15 @@ body {
         }
     }
 }
+
+#footer {
+    padding: 50px;
+
+    .container {
+        justify-content: space-between;
+
+        .contact-icon {
+            padding-top: 15px;
+        }
+    }
+}

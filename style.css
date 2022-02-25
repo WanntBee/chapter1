@@ -179,4 +179,18 @@ body {
 #faq .faq-flex .faq-question {
   margin-left: 10px;
 }
+
+#footer {
+  padding: 50px;
+}
+
+#footer .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .container .contact-icon {
+  padding-top: 15px;
+}
 /*# sourceMappingURL=style.css.map */
