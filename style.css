@@ -81,34 +81,87 @@ body {
 }
 
 #why-us {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-#why-us .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#why-us .container {
+  width: 81.11vw;
+}
+
+#why-us .container .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0;
+}
+
+#why-us .container .lead {
+  margin: 16px 0 40px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+#why-us .container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  list-style: none;
-  padding: 0px;
 }
 
-#why-us .flex-container .flex-items {
-  border: 1px solid;
-  border-color: gray;
-  border-radius: 10px;
-  width: 250px;
-  height: 150px;
-  line-height: 150px;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+#why-us .container .content .card {
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  width: 18.611vw;
+  height: 196px;
+  padding: 24px;
+  margin-right: 2.22vw;
+}
+
+#why-us .container .content .card .icon {
+  height: 32px;
+  width: 32px;
+  padding: 7.67px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#why-us .container .content .card .icon img {
+  height: 24px;
+  width: 24px;
+}
+
+#why-us .container .content .card .title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 0;
+  line-height: 24px;
+}
+
+#why-us .container .content .card .lead {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  width: 15.27vw;
+  height: 4.16vw;
 }
 
 .testimonial {
