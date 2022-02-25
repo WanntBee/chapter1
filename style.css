@@ -164,4 +164,19 @@ body {
 #getting-started .container .getting-started-description .getting-started-content {
   padding-bottom: 15px;
 }
+
+#faq {
+  padding: 50px;
+}
+
+#faq .faq-flex {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+#faq .faq-flex .faq-question {
+  margin-left: 10px;
+}
 /*# sourceMappingURL=style.css.map */

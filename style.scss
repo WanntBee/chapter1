@@ -139,3 +139,18 @@ body {
         }
     }
 }
+
+#faq {
+    padding: 50px;
+
+    .faq-flex {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        margin: 20px;
+
+        .faq-question {
+            margin-left: 10px;
+        }
+    }
+}
